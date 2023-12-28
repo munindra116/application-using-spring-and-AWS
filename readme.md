@@ -8,7 +8,9 @@
 ```
 
 //export const API_URL = 'http://localhost:5000'
-export const API_URL = 'http://restfulwebservices-env.uhpev7xzpb.us-east-1.elasticbeanstalk.com'
+export const API_URL = 'Rest-api-full-stack-h2-env.eba-s3swg8ix.us-east-1.elasticbeanstalk.com'
+ 
+       
 ```
 
 ### Create Production Build
