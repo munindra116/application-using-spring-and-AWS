@@ -1,14 +1,14 @@
 # Full Stack Application with Spring Boot and React
 
 
-<img src="react_00_architecture.png" width="300">
+
 
 
 ## Running the Application
 
-- REST API - Import into Eclipse as Maven Project. Run `com.in28minutes.rest.webservices.restfulwebservices.RestfulWebServicesApplication` as a Java Application. Check Authentication and REST API Sections for executing REST APIs.
+- REST API - Import into Eclipse as Maven Project. Run `com.munindra.rest.webservices.restfulwebservices.RestfulWebServicesApplication` as a Java Application. Check Authentication and REST API Sections for executing REST APIs.
 - React Application - Import `frontend/todo-app` into Visual Studio Code. Run `npm install` followed by `npm start`
-- http://localhost:3000/ with credentials in28minutes/dummy
+- http://localhost:3000/ with credentials munindra/dummy
 
 > Look at  `Creating New Users` section for creating new users.
 
@@ -57,7 +57,7 @@ POST to http://localhost:5000/authenticate
 
 ```
 {
-  "username":"in28minutes",
+  "username":"munindra",
   "password":"dummy"
 }
 ```
@@ -104,35 +104,35 @@ Hello World
 {"message":"Hello World - Changed"}
 ```
 
-- http://localhost:5000/hello-world/path-variable/in28minutes
+- http://localhost:5000/hello-world/path-variable/munindra
 
 ```json
-{"message":"Hello World, in28minutes"}
+{"message":"Hello World, munindra"}
 ```
 
 ## TODO Resource Details
 
-- GET - http://localhost:5000/users/in28minutes/todos
+- GET - http://localhost:5000/users/munindra/todos
 
 ```
 [
   {
     "id": 10001,
-    "username": "in28minutes",
+    "username": "munindra",
     "description": "Learn JPA",
     "targetDate": "2019-06-27T06:30:30.696+0000",
     "done": false
   },
   {
     "id": 10002,
-    "username": "in28minutes",
+    "username": "munindra",
     "description": "Learn Data JPA",
     "targetDate": "2019-06-27T06:30:30.700+0000",
     "done": false
   },
   {
     "id": 10003,
-    "username": "in28minutes",
+    "username": "munindra",
     "description": "Learn Microservices",
     "targetDate": "2019-06-27T06:30:30.701+0000",
     "done": false
@@ -142,12 +142,12 @@ Hello World
 
 #### Retrieve a specific todo
 
-- GET - http://localhost:5000/users/in28minutes/todos/10001
+- GET - http://localhost:5000/users/munindra/todos/10001
 
 ```
 {
   "id": 10001,
-  "username": "in28minutes",
+  "username": "munindra",
   "description": "Learn JPA",
   "targetDate": "2019-06-27T06:30:30.696+0000",
   "done": false
@@ -156,11 +156,11 @@ Hello World
 
 #### Creating a new todo
 
-- POST to http://localhost:5000/users/in28minutes/todos with BODY of Request given below
+- POST to http://localhost:5000/users/munindra/todos with BODY of Request given below
 
 ```
 {
-  "username": "in28minutes",
+  "username": "munindra",
   "description": "Learn to Drive a Car",
   "targetDate": "2030-11-09T10:49:23.566+0000",
   "done": false
@@ -169,12 +169,12 @@ Hello World
 
 #### Updating a new todo
 
-- http://localhost:5000/users/in28minutes/todos/10001 with BODY of Request given below
+- http://localhost:5000/users/munindra/todos/10001 with BODY of Request given below
 
 ```
 {
   "id": 10001,
-  "username": "in28minutes",
+  "username": "munindra",
   "description": "Learn to Drive a Car",
   "targetDate": "2045-11-09T10:49:23.566+0000",
   "done": false
@@ -183,7 +183,7 @@ Hello World
 
 #### Delete todo
 
-- DELETE to http://localhost:5000/users/in28minutes/todos/10001
+- DELETE to http://localhost:5000/users/munindra/todos/10001
 
 ## H2 Schema - Created by Spring Boot Auto Configuration
 
