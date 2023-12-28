@@ -1,12 +1,6 @@
 # Full Stack Application with Spring Boot and React
 
-![Architecture](react_00_architecture.png)
 
-
-
-## Running the Application
-
--
 ## Deploying Front End to AWS
 
 ### Change /frontend/todo-app/src/Constants.js
